@@ -61,3 +61,190 @@ a{
     z-index: 3;
     top: 0;
 }
+
+
+/* MAIN */
+main{
+
+    margin-top: 50px;
+
+}
+
+.main-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container .box:nth-child(2), .box:nth-child(5){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box{
+    width: 400px;
+    height: 700px;
+}
+
+.box-immagini{
+    margin-top: 50px;
+    height: 600px;
+    position: relative;
+}
+
+.box-info-prodotti{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 525px;
+    background-color: lightgray;
+}
+
+.box-cuore{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+/* .box-cuore-nascosto{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    padding-top: 7px;
+    color: red;
+    z-index: 1;
+} */
+
+.box-cuore:hover{
+    color: red;
+}
+
+.discount{
+    text-decoration: line-through;
+}
+
+.red-price{
+    color: red;
+}
+
+.immagine{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+}
+
+.immagine-nascosta{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    z-index: 1;
+}
+
+#immagine-1{
+    background-image: url(../img/1.webp);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+#immagine-1:hover{
+    background-image: url(../img/1b.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#immagine-2{
+    background-image: url(../img/2.webp);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+#immagine-2:hover{
+    background-image: url(../img/2b.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#immagine-3{
+    background-image: url(../img/3.webp);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+#immagine-3:hover{
+    background-image: url(../img/3b.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#immagine-4{
+    background-image: url(../img/4.webp);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+#immagine-4:hover{
+    background-image: url(../img/4b.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#immagine-5{
+    background-image: url(../img/5.webp);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+#immagine-5:hover{
+    background-image: url(../img/5b.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#immagine-6{
+    background-image: url(../img/6.webp);
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+}
+
+#immagine-6:hover{
+    background-image: url(../img/6b.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.red-box{
+    width: 50px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.green-box{
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+    height: 30px;
+    width: 100px;
+    background-color: green;
+    margin-left: 5px;
+}
