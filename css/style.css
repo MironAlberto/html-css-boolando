@@ -248,3 +248,37 @@ main{
     background-color: green;
     margin-left: 5px;
 }
+
+
+/* FOOTER */
+.footer-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    /* text-align: center; */
+    height: 70px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.black-background{
+    background-color: black;
+    margin-top: 40px;
+}
+
+.infos{
+    padding-top: 20px;
+}
+
+.p-font-size{
+    font-size: 12px;
+}
+
+.socials{
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.footer-speciale{
+    margin-bottom: 10px;
+}
