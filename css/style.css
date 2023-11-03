@@ -7,14 +7,57 @@
     box-sizing: border-box;
 }
 
-/* 
-    GENERAL
-*/
+
+/*GENERAL*/
 html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    max-width: 1200px;
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* MY-ROW */
+.my-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.my-row .my-col-1-6{
+    width: calc((100% / 6) * 1);
+}
+
+/* .my-row .my-col-2-3{
+    width: calc((100% / 6) * 4);
+} */
+
+
+/* HEADER */
+.logo{
+    background-image: url(../img/boolean-logo.png);
+    width: 113px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-container{
+    max-width: 1350px;
     margin: 0 auto;
+    text-align: center;
+    height: 50px;
+    color: white;
+}
+
+.orange-background{
+    background-color: orange;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
 }
